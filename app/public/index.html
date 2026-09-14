@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lista de Tarefas</title>
   <style>
-    body { font-family: sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; color: #222; }
-    h1 { text-align: center; }
-    form { display: flex; gap: 8px; margin-bottom: 24px; }
-    input[type="text"] { flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
-    button { padding: 10px 16px; font-size: 16px; border: none; border-radius: 4px; background: #2563eb; color: #fff; cursor: pointer; }
-    ul { list-style: none; padding: 0; }
-    li { display: flex; align-items: center; justify-content: space-between; padding: 10px; border: 1px solid #eee; border-radius: 4px; margin-bottom: 8px; }
-    li.done span { text-decoration: line-through; color: #999; }
-    li button { background: #dc2626; }
+    body {
+      font-family: sans-serif;
+      max-width: 480px;
+      margin: 40px auto;
+      padding: 0 16px;
+      color: red;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 16px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      background: #2563eb;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
+    li.done span {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    li button {
+      background: #dc2626;
+    }
   </style>
 </head>
+
 <body>
   <h1>Lista de Tarefas</h1>
   <form id="task-form">
@@ -87,4 +139,5 @@
     loadTasks();
   </script>
 </body>
+
 </html>
