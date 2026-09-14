@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+
+# Variaveis de ambiente (contem credenciais)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+
+# Ambiente/IDE
+.idea/
+.vscode/
+
+#Requerimentos
+RequerimentosProjetoDocker
