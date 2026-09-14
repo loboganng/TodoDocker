@@ -1,4 +1,4 @@
-# Projeto 001 :: Docker — Aplicação Web Contêinerizada
+# Projeto 001: Docker — Aplicação Web Contêinerizada
 
 **Disciplina:** DEVOPS Tools
 **Professor:** Renato Sousa Botacim
